@@ -1,0 +1,13 @@
+[global]
+# Trading pair to subscribe to (e.g. BTCUSDT, ETHUSDT)
+symbol = "BTCUSDT"
+
+# Interval (in seconds) to print the top-of-book (TOB) data
+print_period = 5
+
+[exchange]
+# REST API base URL (omit a trailing slash)
+rest_base_url = "https://fapi.binance.com/fapi/v1"
+
+# WebSocket base URL (omit a trailing slash)
+ws_base_url = "wss://fstream.binance.com/ws"
